@@ -23,7 +23,7 @@ export default function NavLinks() {
             key={link.name}
             href={link.href}
             className= {clsx("bg-red-500 text-white font-bold p-[8%] text-center border-2 border-black rounded-xl hover:bg-white hover:text-red-500 overflow-hidden"
-                       ,{'bg-blue-400 hover:text-white hover:bg-blue-400 cursor-default': pathname == link.href}
+                       ,{'bg-blue-400 cursor-default': pathname == link.href}
           )}
           >
             <FontAwesomeIcon icon={link.icon} className="text-3xl sm:text-sm" />
