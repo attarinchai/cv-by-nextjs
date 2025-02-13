@@ -1,0 +1,53 @@
+@keyframes fade-from-left {
+  0% {
+    clip-path: inset(0 100% 0 0);
+  }
+  100% {
+    clip-path: inset(0 0% 0 0);
+  }
+}
+@keyframes fade-from-top {
+  0% {
+    clip-path: inset(0 0 100% 0);
+  }
+  100% {
+    clip-path: inset(0 0 0% 0);
+  }
+}
+@keyframes fade-from-bottom {
+  0% {
+    clip-path: inset(100% 0 0 0);
+  }
+  100% {
+    clip-path: inset(0% 0 0 0);
+  }
+}
+@keyframes running-in {
+  0% {
+    opacity: 0;
+  }
+}
+@keyframes running-in-2 {
+  0% {
+    transform: translateY(-30px);
+  }
+  80% {
+    transform: translateY(-30px);
+  }
+}
+
+.fade_from_left {
+  animation: fade-from-left 1500ms linear;
+}
+.fade_from_top {
+  animation: fade-from-top 1800ms linear;
+}
+.fade_from_bottom {
+  animation: fade-from-bottom 1800ms linear;
+}
+.running_in {
+  animation: running-in 2s linear;
+}
+.running_in_2 {
+  animation: running-in-2 4s linear;
+}

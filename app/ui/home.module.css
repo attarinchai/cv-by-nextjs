@@ -1,0 +1,39 @@
+.background {
+  --bg-color: rgb(36, 33, 33);
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(var(--bg-color) 3%, white 3%, white 97%, var(--bg-color) 97%);
+  border: 15px double var(--bg-color);
+}
+@keyframes jiggling {
+  50% {
+    transform: translate(-4px, 0);
+  }
+  80% {
+    transform: translate(4px, 0);
+  }
+}
+.jiggling {
+  animation: jiggling 200ms linear infinite;
+}
+
+@keyframes light {
+  49% {
+    color: wheat;
+  }
+  50% {
+    color: black;
+  }
+  100% {
+    color: black;
+  }
+}
+.light2 {
+  animation: light 1s linear infinite;
+}
+.light3 {
+  animation: light 1s linear infinite 180ms;
+}
+.light4 {
+  animation: light 1s linear infinite 360ms;
+}

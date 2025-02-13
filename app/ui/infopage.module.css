@@ -1,0 +1,15 @@
+@keyframes link {
+  0% {
+    border: 5px solid rgb(0, 0, 0);
+  }
+  50% {
+    border: 5px solid red;
+  }
+  100% {
+    border: 5px solid rgb(0, 0, 0);
+  }
+}
+
+.link {
+  animation: link 1s linear infinite;
+}
