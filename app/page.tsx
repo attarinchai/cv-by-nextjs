@@ -10,7 +10,7 @@ export default function Page() {
     <main className={`absolute w-full h-full ${styles.background} font-serif text-slate-600`}>
       <div className="flex flex-col h-full justify-center items-center sm:h-auto sm:flex-row sm:justify-evenly sm:mt-[30vh]">
         <div className='flex flex-col gap-5 items-center'>
-          <h2 className='text-6xl sm:text-8xl'>HI THERE!!!</h2>
+          <h2 className='text-6xl text-center sm:text-8xl'>HI THERE!!!</h2>
           <p className='text-5xl italic'>LET'S GET IN</p>
           <Link href='/timeline' 
                 className={`w-[80%] h-[8vh] bg-red-500 border-2 border-red-900 rounded-2xl hover:bg-red-900 
